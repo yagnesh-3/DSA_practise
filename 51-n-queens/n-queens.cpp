@@ -4,7 +4,7 @@ public:
     bool isValid(int i , int j ,vector<string>&board,int n){
         for(int row = 0;row<i;row++){
             if(board[row][j] == 'Q') return false;  
-            // if(board[i][row] == "Q") return false;  
+            if(board[i][row] == 'Q') return false;  
         }
         int ti = i;
         int tj = j;
