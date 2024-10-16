@@ -1,6 +1,8 @@
 class Solution {
 public:
     string longestDiverseString(int a, int b, int c) {
+        ios::sync_with_stdio(0);
+        cin.tie(0);
         string s  = "";
         while(a>0||b>0||c>0){
             int n = s.length();
