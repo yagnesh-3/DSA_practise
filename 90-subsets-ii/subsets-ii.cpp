@@ -1,7 +1,7 @@
 class Solution {
 public:
     set<vector<int>>ans;
-    void helper(int i,vector<int>v,vector<int>&arr){
+    void helper(int i,vector<int>&v,vector<int>&arr){
         if(i==arr.size()){
             ans.insert(v);
             return;
